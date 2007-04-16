@@ -1,4 +1,5 @@
-Summary:	xslp
+Summary:	xslp - XSLT processor written in Java
+Summary(pl.UTF-8):	xslp - procesor XSLT napisany w Javie
 Name:		xslp
 Version:	1.0
 Release:	0.1
@@ -16,6 +17,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XSL:P is a free, open-source XSLT processor written in Java. Currently
 the processor implements the XSLT WD 1.0 19990421 specification.
+
+%description -l pl.UTF-8
+XSL:P to darmowy, mający otwarte źródła procesor XSLT napisany w
+Javie. Aktualnie implementuje specyfikację XSLT WD 1.0 19990421.
 
 %prep
 %setup -qc
@@ -35,3 +40,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc license.txt
+# TODO
