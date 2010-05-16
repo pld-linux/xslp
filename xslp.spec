@@ -9,6 +9,7 @@ Source0:	http://web.archive.org/web/20000818070835/www.clc-marketing.com/xslp/di
 # Source0-md5:	98a97cc6b92e405b123506297bb5de25
 BuildRequires:	jpackage-utils
 BuildRequires:	rpmbuild(macros) >= 1.300
+BuildRequires:	unzip
 Requires:	jpackage-utils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
